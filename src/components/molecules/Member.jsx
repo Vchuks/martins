@@ -3,8 +3,8 @@ import Text from "../atom/Text";
 import step1 from "../../assets/images/1 (1).png";
 import step2 from "../../assets/images/2 (1).png";
 import step3 from "../../assets/images/3.png";
-import vect1 from "../../assets/images/vector (1).png";
-import vect2 from "../../assets/images/vector.png";
+import vect1 from "../../assets/images/Vector (1).png";
+import vect2 from "../../assets/images/Vector.png";
 
 const Member = () => {
   return (
