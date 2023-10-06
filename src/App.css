@@ -27,6 +27,11 @@
   display: flex !important;
   flex-direction: row-reverse;
 }
+.image-gallery-slide{
+  background: #EBEBF4 !important;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
 .image-gallery-slide .image-gallery-image{
   border: 10px ridge #01E7FF;
   width: 50% !important;
@@ -40,6 +45,7 @@
   width: 80% !important;
   bottom: 0 !important;
   color: #001F42 !important;
+  height: 500px;
   left: 0 !important; 
   line-height: 30px !important;
   display: flex !important;
@@ -47,9 +53,10 @@
   text-align: left;
   padding:2.5rem !important;
   position: relative !important;
+  font-family: sator;
   white-space: normal;
   justify-content: center;
-  font-size: 22px;
+  font-size: 22px !important;
 
 }
 .image-gallery-left{
@@ -57,11 +64,17 @@
 }
 .image-gallery-thumbnail{
   border-radius: 50px;
-  margin: 0 10rem;
+  /* margin: 0 10rem; */
 /* opacity: 0.5; */
+}
+.image-gallery-slide .image-gallery-left{
+  width: 100%;
+  background-color: #0077FE;
 }
 .image-gallery-thumbnails-container{
   margin-top: 2rem;
+  display: flex;
+  justify-content: space-around;
 
 }
 .image-gallery-thumbnail img{
@@ -73,24 +86,27 @@
 
 
 .image-gallery-thumbnail-label
-{box-sizing: border-box;
-    color: red !important;
+{box-sizing:border-box;
+    color: #001F42 !important;
     font-size: 1em;
     left: 100% !important;
-    line-height: 1em;
+    line-height:20px !important;
     padding: 5%;
+    width: 150px !important;
     position: absolute !important;
-    top: 50% !important;
+    top: 20% !important;
     text-shadow:none !important;
     transform: translateY(0) !important;
     white-space: normal;
-    width: 100%;
 }
+
 
 @media (max-width:997px) {
   .image-gallery-slide{
+      background: #EEF !important;    
     display: flex !important;
     flex-direction: column;
+    border-radius: 20px;
     gap: 10px;
   }
   .image-gallery-slide .image-gallery-description,.image-gallery-slide .image-gallery-image{
@@ -99,5 +115,32 @@
   }
   .image-gallery-slide .image-gallery-image{
     border-radius: 20px;
+    width: 75% !important;
+    height: 400px;
+    margin: auto;
+  }
+  .image-gallery-slide .image-gallery-description{
+  height: auto !important;
+  padding: 2rem !important;
+  font-size: 16px !important;
+  line-height: 25px !important;
+ }
+  .image-gallery-thumbnails-container{
+    width: auto !important;
+    justify-content: space-between !important;
+    padding: 1px !important;
+  }
+  .image-gallery-thumbnail{
+    height: 100% !important;
+    width: auto !important;
+  }
+  .image-gallery-thumbnail img{
+    width: 50px !important;
+    height: 50px !important;
+  }
+  .image-gallery-thumbnail-label{
+    width: 100px !important;
+    overflow: scroll;
+    font-size: 10px !important;
   }
 }

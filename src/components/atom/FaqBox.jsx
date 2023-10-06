@@ -1,5 +1,5 @@
 // import Logo from "./Logo";
-import { useState} from "react";
+import { useState, useRef} from "react";
 import {BiChevronUp} from 'react-icons/bi'
 import {BiChevronDown} from 'react-icons/bi'
 import {BsArrowUpCircle} from 'react-icons/bs'
@@ -9,7 +9,7 @@ import PropTypes from 'prop-types'
 
 const FaqBox = ({list}) => {
     const [title, setTitle] = useState(false);
-    // const faqref = useRef()
+    const faqref = useRef()
     const {qst,ans} = list
     const handleState = () => {
         setTitle(!title);
@@ -52,7 +52,7 @@ const FaqBox = ({list}) => {
       )}
       {title && (
         <div className="pt-3 pb-10 bg-inherit lg:bg-[#F6F7F9] lg:px-6 rounded-b-md border-b border-[#E7EAEE]">
-          <p className="font-sator text-[#001f429c] text-sm lg:text-base lg:text-ctwo leading-relaxed">{ans}</p>
+          <p dangerouslySetInnerHTML={{ __html: ans }}className="font-sator text-[#001f429c] text-sm lg:text-base lg:text-ctwo leading-relaxed" ref={faqref}/>
            
         </div>
       )}
