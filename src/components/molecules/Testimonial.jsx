@@ -68,7 +68,9 @@ const Testimonial = () => {
         {testimonials.map(each=>{
           return (
 
-            <div key={each.id} className="w-full relative mt-20 bg-[white] flex flex-col gap-8 p-8 items-center shadow-lg rounded-lg">
+            <div key={each.id} className="w-full relative mt-20 bg-[white] flex flex-col gap-8 p-8 items-center shadow-lg rounded-lg"
+            data-aos="fade-up"
+         data-aos-duration="1000">
               <Logo className="w-28 h-28 absolute -top-[15%] rounded-full object-cover" src={each.image} alt=""/>
               <div className="text-center mt-16">
               <Text className="text-lg font-epilogue font-medium text-cone" body={each.name}/>
