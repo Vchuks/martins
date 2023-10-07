@@ -22,9 +22,12 @@ const FaqList = [
         <br/>
         <br/>
         One-on-one career coaching: Graduates will work with a dedicated career coach to develop their job search strategy, create a resume and cover letter, and practice their interviewing skills.
+        <br/>
         Access to a job board with exclusive postings: The CareerGrowth job board features exclusive job postings from top tech companies. Graduates will also have access to job postings from a variety of other sources, including LinkedIn, Indeed, and Monster.
+        <br/>
         Networking opportunities with CareerGrowth alumni: Graduates will have the opportunity to network with CareerGrowth alumni who are working in top tech companies. This can be a great way to learn about different job opportunities and get your foot in the door.
         Interview preparation workshops: The CareerGrowth team offers regular interview preparation workshops to help graduates prepare for their job interviews. These workshops cover a variety of topics, including how to answer common interview questions, how to dress for success, and how to follow up after an interview.
+        <br/>
         In addition to these services, the CareerGrowth team is also available to provide support and guidance to graduates throughout their job search`
     },
     {
