@@ -68,13 +68,13 @@ const Testimonial = () => {
         {testimonials.map(each=>{
           return (
 
-            <div key={each.id} className="w-full flex flex-col gap-8 p-8 items-center shadow-md rounded-lg">
+            <div key={each.id} className="w-full bg-[#EBEBF4] flex flex-col gap-8 p-8 items-center shadow-md rounded-lg">
               <Logo className="w-28 h-28 rounded-full object-cover" src={each.image} alt=""/>
               <div className="text-center">
               <Text className="text-lg font-epilogue font-medium text-cone" body={each.name}/>
               <Text className="text-sm font-sator text-ctwo" body={each.title}/>
               </div>
-              <Text className="text-ctwo font-sator text-justify" body={each.comment}/>
+              <Text className="text-ctwo font-sator text-sm text-justify" body={each.comment}/>
             </div>
             )
         })}
