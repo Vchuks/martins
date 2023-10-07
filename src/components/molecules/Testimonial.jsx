@@ -11,52 +11,52 @@ const Testimonial = () => {
   const testimonials = [
     {
       id:'1',
-      name:'Bukola Olamide',
+      name:'Samuel Olamide',
       title:'Data Analyst',
       image:pic3,
-      comment:'The CareerGrowth Tech Accelerator Program was a game-changer for me. I was able to get hands-on practical experience in data analytics, which helped me land a job as a data analyst at a top tech company. The program was well-structured and the instructors were experts in their field. I would highly recommend this program to anyone interested in pursuing a career in data analytics.'
+      comment:'The CareerGrowth program was well-structured and the instructors were experts in their field. I would highly recommend this program to anyone interested in pursuing a career in data analytics.'
     },
     {
       id:'2',
       name:'Abimbola Adebayo',
       title:'Product Designer',
       image:pic2,
-      comment:`I was looking for a program that would give me hands-on experience in product design, and the CareerGrowth Tech Accelerator Program delivered. I learned from experienced product designers and worked on real-world projects. The program helped me develop the skills and knowledge I needed to land a job as a product designer at a startup company. I'm so grateful for the opportunity to have participated in this program.`
+      comment:`I learned from experienced product designers and worked on real-world projects. The program helped me develop the skills and knowledge I needed to land a job as a product designer at a startup company.`
     },
     {
       id:'3',
       name:'Ngozi Okonkwo',
       title:'Data Analyst',
       image:pic1,
-      comment:`The CareerGrowth Tech Accelerator Program was the best investment I've ever made in my career. I was able to learn from the best and brightest in the field of data analytics, and I gained the skills and experience I needed to land a job as a data analyst at a leading tech company. I'm so grateful for the opportunity to have participated in this program.`
+      comment:`The CareerGrowth Tech Accelerator Program was the best investment I've ever made in my career. I was able to learn from the best and brightest in the field of data analytics, and I gained the skills and experience I needed to land a job.`
     }
   ]
   const pics = [
     {
       original: pic3,
       thumbnail: pic3,
-      thumbnailLabel: `Bukola Olamide Data Analyst`,
+      thumbnailLabel: `Samuel Olamide Data Analyst`,
       loading: "lazy",
-      description: `"The CareerGrowth Tech Accelerator Program was a game-changer for me. I was able to get hands-on practical experience in data analytics, which helped me land a job as a data analyst at a top tech company. The program was well-structured and the instructors were experts in their field. I would highly recommend this program to anyone interested in pursuing a career in data analytics."`,
+      description: `The CareerGrowth program was well-structured and the instructors were experts in their field. I would highly recommend this program to anyone interested in pursuing a career in data analytics.`,
     },
     {
       original: pic2,
       thumbnail: pic2,
       thumbnailLabel: `Abimbola Adebayo Product Designer`,
       loading: "lazy",
-      description: `"I was looking for a program that would give me hands-on experience in product design, and the CareerGrowth Tech Accelerator Program delivered. I learned from experienced product designers and worked on real-world projects. The program helped me develop the skills and knowledge I needed to land a job as a product designer at a startup company. I'm so grateful for the opportunity to have participated in this program."`,
+      description: `I learned from experienced product designers and worked on real-world projects. The program helped me develop the skills and knowledge I needed to land a job as a product designer at a startup company.`,
     },
     {
       original: pic1,
       thumbnail: pic1,
       thumbnailLabel: `Ngozi Okonkwo Data Analyst`,
       loading: "lazy",
-      description: `"The CareerGrowth Tech Accelerator Program was the best investment I've ever made in my career. I was able to learn from the best and brightest in the field of data analytics, and I gained the skills and experience I needed to land a job as a data analyst at a leading tech company. I'm so grateful for the opportunity to have participated in this program."`,
+      description: `The CareerGrowth Tech Accelerator Program was the best investment I've ever made in my career. I was able to learn from the best and brightest in the field of data analytics, and I gained the skills and experience I needed to land a job.`,
     },
   ];
 
   return (
-    <div className="p-4 pt-8 pb-8 lg:px-28 lg:py-24 bg-[#EEF] lg:bg-white">
+    <div className="p-4 pt-8 pb-8 lg:px-28 lg:py-24  bg-white">
       <Text
         className="font-epilogue text-sm lg:font-medium text-cthree text-center lg:text-left"
         body="TESTIMONIALS"
@@ -68,9 +68,9 @@ const Testimonial = () => {
         {testimonials.map(each=>{
           return (
 
-            <div key={each.id} className="w-full bg-[#EBEBF4] flex flex-col gap-8 p-8 items-center shadow-md rounded-lg">
-              <Logo className="w-28 h-28 rounded-full object-cover" src={each.image} alt=""/>
-              <div className="text-center">
+            <div key={each.id} className="w-full relative mt-20 bg-[white] flex flex-col gap-8 p-8 items-center shadow-lg rounded-lg">
+              <Logo className="w-28 h-28 absolute -top-[15%] rounded-full object-cover" src={each.image} alt=""/>
+              <div className="text-center mt-16">
               <Text className="text-lg font-epilogue font-medium text-cone" body={each.name}/>
               <Text className="text-sm font-sator text-ctwo" body={each.title}/>
               </div>

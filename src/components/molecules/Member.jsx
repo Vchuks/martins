@@ -43,10 +43,7 @@ const Member = () => {
         </div>
         <div className="w-full flex flex-col gap-4 lg:gap-8 justify-center lg:justify-normal items-center lg:items-start"
         data-aos="flip-right"
-        data-aos-duration="2000"
-        data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
-        data-aos-anchor-placement="top-center">
+        data-aos-duration="2000">
           <Logo src={step2} className="w-28 lg:w-36" alt="" />
           <Text
             className="text-[#1C001B] lg:text-ctwo text-2xl lg:text-3xl font-epilogue font-medium lg:font-semibold"
@@ -62,10 +59,7 @@ const Member = () => {
         </div>
         <div className="w-full flex flex-col gap-4 lg:gap-8 justify-center lg:justify-normal items-center lg:items-start"
         data-aos="flip-right"
-        data-aos-duration="3000"
-        data-aos-easing="ease-in-out"
-        data-aos-mirror="true"
-        data-aos-anchor-placement="top-center">
+        data-aos-duration="3000">
           <Logo src={step3} className="w-28 lg:w-36" alt="" />
           <Text
             className="text-[#1C001B] lg:text-ctwo text-2xl lg:text-3xl font-epilogue font-medium lg:font-semibold"
