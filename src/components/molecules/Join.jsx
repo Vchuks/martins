@@ -9,11 +9,7 @@ const Join = () => {
   return (
     <div className="bg-[#001630] p-4 pt-6 pb-0 lg:px-28 lg:py-0 flex flex-col lg:flex-row justify-center items-center"
     data-aos="zoom-out-up"
-    data-aos-offset="200"
-    data-aos-duration="1000"
-    data-aos-easing="ease-in-out"
-    data-aos-mirror="true"
-    data-aos-anchor-placement="top-center">
+    data-aos-duration="1000">
       <div className="hidden lg:block w-full">
         <p className="w-4/5 text-white text-5xl leading-snug">Join our community today to<span className="
         text-cone"> fast-track</span> your<span className="text-cone"> tech career</span></p>

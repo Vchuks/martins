@@ -75,7 +75,9 @@
   margin-top: 2rem;
   display: flex;
   justify-content: space-around;
-
+}
+.image-gallery-thumbnail{
+  border:1px solid #001F42;
 }
 .image-gallery-thumbnail img{
   height: 100px;
@@ -94,7 +96,7 @@
     padding: 5%;
     width: 150px !important;
     position: absolute !important;
-    top: 20% !important;
+    top: 0% !important;
     text-shadow:none !important;
     transform: translateY(0) !important;
     white-space: normal;
@@ -139,7 +141,7 @@
     height: 50px !important;
   }
   .image-gallery-thumbnail-label{
-    width: 100px !important;
+    width: 90px !important;
     overflow: scroll;
     font-size: 10px !important;
   }

@@ -11,12 +11,9 @@ import abt4 from '../../assets/images/Group 427319797 (3).png'
 
 const About = () => {
   return (
-    <div className="flex flex-col lg:flex-row p-4 pt-6 pb-8 lg:px-28  gap-10 lg:gap-20 bg-[#F0FDF4] lg:bg-white">
+    <div className="flex flex-col lg:flex-row p-4 pt-6 pb-8 lg:px-28  gap-10 lg:gap-20 bg-[#f2fdf5cc] lg:bg-white">
       <div className="w-full flex gap-8" data-aos="fade-up"
-    data-aos-duration="1000"
-    data-aos-easing="ease-in-out"
-    data-aos-mirror="true"
-    data-aos-anchor-placement="top-center">
+    data-aos-duration="1000">
         <div className="relative">
             <Logo src={imgOne} alt="" className="w-full rounded-2xl"/>
             <Logo src={objOne} alt="" className="hidden lg:block w-14 absolute left-[12%] top-[80%]"/>

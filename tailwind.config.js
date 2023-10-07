@@ -16,6 +16,7 @@ export default {
         'epilogue':['Epilogue','sans-serif'],
         'satob':['satob'],
         'satom':['satom'],
+        'sator':['sator'],
       }
     },
   },
