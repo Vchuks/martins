@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 
 const Member = () => {
   return (
-    <div className="p-4 pt-6 pb-8 lg:px-28 lg:py-24 bg-[#f2fdf5cc] lg:bg-[#F6F7F9]">
+    <div className="p-4 pt-6 pb-8 lg:px-28 lg:py-24 bg-[#F6F7F9]">
       <Text
         className="font-semibold font-epilogue text-center text-ctwo text-[28px] lg:text-5xl"
         body="How to become a member?"

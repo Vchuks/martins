@@ -11,7 +11,7 @@ import abt4 from '../../assets/images/Group 427319797 (3).png'
 
 const About = () => {
   return (
-    <div className="flex flex-col lg:flex-row p-4 pt-6 pb-8 lg:px-28  gap-10 lg:gap-20 bg-[#f2fdf5cc] lg:bg-white">
+    <div className="flex flex-col lg:flex-row p-4 pt-6 pb-8 lg:px-28  gap-10 lg:gap-20 bg-white">
       <div className="w-full flex gap-8" data-aos="fade-up"
     data-aos-duration="1000">
         <div className="relative">

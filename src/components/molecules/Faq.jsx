@@ -8,7 +8,7 @@ const Faq = () => {
   });
   return (
     <>
-    <div className="p-4 pt-6 pb-8 lg:px-28 lg:py-24 flex flex-col lg:flex-row bg-[#F0FDF4] lg:bg-white">
+    <div className="p-4 pt-6 pb-8 lg:px-28 lg:py-24 flex flex-col lg:flex-rowbg-white">
       <div className="w-full flex flex-col justify-between">
         <div>
         <Text
